@@ -1,2 +1,15 @@
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
